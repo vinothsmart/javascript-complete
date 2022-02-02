@@ -15,16 +15,27 @@ let mycurrentJob = "web developer";
 
 console.log(myFirstJob);
 
-let country = "Portugal";
-let continent = "Europe";
-let population = 10;
+// let country = "Portugal";
+// let continent = "Europe";
+// let population = 10;
+// console.log(country);
+// console.log(continent);
+// console.log(population);
+
+// let isIsland = false;
+// let language;
+// console.log(typeof isIsland);
+// console.log(typeof population);
+// console.log(typeof country);
+// console.log(typeof language);
+
+language = "portuguese";
+const country = "Portugal";
+const continent = "Europe";
+const isIsland = false;
+// isIsland = true;
+
+console.log(language);
 console.log(country);
 console.log(continent);
-console.log(population);
-
-let isIsland = false;
-let language;
-console.log(typeof isIsland);
-console.log(typeof population);
-console.log(typeof country);
-console.log(typeof language);
+console.log(isIsland);
