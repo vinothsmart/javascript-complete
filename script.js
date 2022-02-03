@@ -16,7 +16,7 @@ let myFirstJob = "android developer";
 let mycurrentJob = "web developer";
 
 console.log(myFirstJob);
-*/
+
 
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
@@ -38,3 +38,21 @@ year = 2020;
 console.log(typeof year);
 
 console.log(typeof null);
+*/
+
+// reassign or mutate the value
+let age = 30;
+age = 31;
+
+const birthYear = 1990;
+// birthYear = 1991;
+// const job;
+
+var job = "web developer";
+job = "frontend developer";
+
+// let is a block scope
+// var is a function scope
+
+lastName = "Srinivasan";
+console.log(lastName);
