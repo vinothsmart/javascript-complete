@@ -220,3 +220,10 @@ console.log(myCountry2);
 
 for (let voter = 1; voter <= 50; voter++)
   console.log(`Voter number ${voter} is currently voting`);
+
+const percentages2 = [];
+for (let i = 0; i < populations.length; i++) {
+  const perc = percentageOfWorld1(populations[i]);
+  percentages2.push(perc);
+}
+console.log(percentages2);
