@@ -102,7 +102,7 @@ x = y = 25 - 10 - 5; // x = y =10, x = 10
 console.log(x, y);
 const averageAge = (ageVinoth + ageJohnSon) / 2;
 console.log(ageVinoth, ageJohnSon, averageAge);
-*/
+
 
 const massMark = 78;
 const heightMark = 1.69;
@@ -114,3 +114,23 @@ const BMIJohn = massJohn / (heightJohn * heightJohn);
 const markHigherBMI = BMIMark > BMIJohn;
 
 console.log(BMIMark, BMIJohn, markHigherBMI);
+
+*/
+
+const firstName = "Vinoth";
+const job = "react developer";
+const birthYear = 1990;
+const year = 2022;
+
+const vinoth =
+  "I',m " + firstName + ", a" + (year - birthYear) + " years old" + job + "!";
+
+console.log(vinoth);
+
+const vinothNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+
+console.log(vinothNew);
+
+console.log(`Just a regualr string`);
+
+console.log("String with \n mutiple \n lines");
