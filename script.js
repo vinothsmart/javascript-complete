@@ -61,3 +61,6 @@ const now = 2020;
 const ageVinoth = now - 1990;
 const ageJohnSon = now - 1998;
 console.log(ageVinoth, ageJohnSon);
+
+console.log(ageVinoth * 2, ageJohnSon / 10, 2 ** 3);
+// 2 ** 3 means 2 to the power of 3 or 2 * 2 * 2
