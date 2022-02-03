@@ -236,3 +236,12 @@ const listOfNeighbours = [
 for (let i = 0; i < listOfNeighbours.length; i++)
   for (let y = 0; y < listOfNeighbours[i].length; y++)
     console.log(`Neighbour: ${listOfNeighbours[i][y]}`);
+
+const percentages3 = [];
+let i = 0;
+while (i < populations.length) {
+  const perc = percentageOfWorld1(populations[i]);
+  percentages3.push(perc);
+  i++;
+}
+console.log(percentages3);
