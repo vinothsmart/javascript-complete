@@ -57,10 +57,34 @@ job = "frontend developer";
 lastName = "Srinivasan";
 console.log(lastName);
 */
-const now = 2020;
+
+// Math operators
+const now = 2037;
 const ageVinoth = now - 1990;
-const ageJohnSon = now - 1998;
+const ageJohnSon = now - 2018;
 console.log(ageVinoth, ageJohnSon);
 
 console.log(ageVinoth * 2, ageJohnSon / 10, 2 ** 3);
 // 2 ** 3 means 2 to the power of 3 or 2 * 2 * 2
+
+const firstName = "Vinoth";
+const lastName = "Srinivasan";
+console.log(firstName + " " + lastName); // this will join string
+
+// Assignment operators
+let x = 10 + 5; // 15
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4 = 100
+x++; // x = x + 1 = 101
+x--; // x = x- 1 = 100
+x--;
+console.log(x);
+
+// comparison operators
+console.log(ageVinoth > ageJohnSon); // true
+console.log(ageJohnSon >= 18); // true
+
+const isFullAge = ageJohnSon >= 18;
+
+console.log(isFullAge);
+console.log(now - 1991 > now - 2018);
