@@ -196,7 +196,7 @@ console.log("23" / 2);
 let n = "1" + 1;
 n = n - 1;
 console.log(n);
-*/
+
 
 // 5 falsy values: 0 , '', null, undefined, NaN
 
@@ -219,4 +219,26 @@ if (height) {
   console.log("height is defined");
 } else {
   console.log("height is not defined");
+}
+*/
+
+const age = 18;
+if (age === 18) console.log("You are old enough to vote (strict)");
+if (age == 18) console.log("You are old enough to vote (loose)");
+
+const favourite = Number(prompt("What is your favourite number?"));
+console.log(favourite);
+console.log(typeof favourite);
+
+if (favourite === 23) {
+  // '23' == 23
+  console.log("You are right 23");
+} else if (favourite === 7) {
+  console.log("You are right 7 also");
+} else {
+  console.log("Number is not 23 or 7");
+}
+
+if (favourite !== 23) {
+  console.log("You are not right 23");
 }
