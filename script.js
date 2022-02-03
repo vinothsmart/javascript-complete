@@ -242,3 +242,25 @@ if (favourite === 23) {
 if (favourite !== 23) {
   console.log("You are not right 23");
 }
+
+const hasDriversLinese = true; // A
+const hasGoodVision = true; //B
+
+console.log(hasDriversLinese && hasGoodVision);
+console.log(hasDriversLinese || hasGoodVision);
+console.log(!hasDriversLinese);
+
+// if (hasDriversLinese && hasGoodVision) {
+//   console.log("Vinoth is able to drive");
+// } else {
+//   console.log("Vinoth is not able to drive");
+// }
+
+const isTried = true;
+console.log(hasDriversLinese && hasGoodVision && isTried);
+
+if (hasDriversLinese && hasGoodVision && !isTried) {
+  console.log("Vinoth is able to drive");
+} else {
+  console.log("Vinoth is not able to drive");
+}
