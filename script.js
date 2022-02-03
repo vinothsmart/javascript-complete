@@ -38,7 +38,7 @@ year = 2020;
 console.log(typeof year);
 
 console.log(typeof null);
-*/
+
 
 // reassign or mutate the value
 let age = 30;
@@ -56,3 +56,8 @@ job = "frontend developer";
 
 lastName = "Srinivasan";
 console.log(lastName);
+*/
+const now = 2020;
+const ageVinoth = now - 1990;
+const ageJohnSon = now - 1998;
+console.log(ageVinoth, ageJohnSon);
