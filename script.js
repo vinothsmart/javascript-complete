@@ -115,8 +115,6 @@ const markHigherBMI = BMIMark > BMIJohn;
 
 console.log(BMIMark, BMIJohn, markHigherBMI);
 
-*/
-
 const firstName = "Vinoth";
 const job = "react developer";
 const birthYear = 1990;
@@ -134,3 +132,25 @@ console.log(vinothNew);
 console.log(`Just a regualr string`);
 
 console.log("String with \n mutiple \n lines");
+*/
+
+const age = 19;
+
+if (age >= 18) {
+  console.log("You are old enough to vote");
+} else {
+  const yearsLeft = 18 - age;
+  console.log(
+    `You are not old enough to vote, you have ${yearsLeft} years left`
+  );
+}
+
+let century;
+const birthYear = 1991;
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+
+console.log(century);
