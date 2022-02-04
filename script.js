@@ -220,7 +220,7 @@ if (height) {
 } else {
   console.log("height is not defined");
 }
-*/
+
 
 const age = 18;
 if (age === 18) console.log("You are old enough to vote (strict)");
@@ -263,4 +263,37 @@ if (hasDriversLinese && hasGoodVision && !isTried) {
   console.log("Vinoth is able to drive");
 } else {
   console.log("Vinoth is not able to drive");
+}
+
+*/
+
+// const scoreDolphins = (96 + 108 + 89) / 3;
+// const socoreKoalas = (88 + 100 + 110) / 3;
+// console.log(scoreDolphins, socoreKoalas);
+
+// if (scoreDolphins > socoreKoalas) {
+//   console.log("Dolphins win ");
+// } else if (socoreKoalas > scoreDolphins) {
+//   console.log("Koalas win");
+// } else {
+//   console.log("Draw");
+// }
+
+// Bonus 1
+const scoreDolphins = (97 + 112 + 101) / 3;
+const socoreKoalas = (109 + 95 + 106) / 3;
+console.log(scoreDolphins, socoreKoalas);
+
+if (scoreDolphins > socoreKoalas && scoreDolphins >= 100) {
+  console.log("Dolphins win");
+} else if (socoreKoalas > scoreDolphins && socoreKoalas >= 100) {
+  console.log("Koalas win");
+} else if (
+  scoreDolphins === socoreKoalas &&
+  socoreKoalas >= 100 &&
+  scoreDolphins >= 100
+) {
+  console.log("Draw");
+} else {
+  console.log("No winner");
 }
