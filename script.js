@@ -337,7 +337,7 @@ if (day === "Monday") {
 } else {
   console.log("It's not a day");
 }
-*/
+
 
 // statements
 if (23 > 10) {
@@ -347,3 +347,19 @@ if (23 > 10) {
 // expressions
 const me = "Vinoth";
 console.log(`I'm ${2022 - 1990} years old ${me}`);
+
+*/
+
+const age = "31";
+age >= 18 ? console.log("You can vote") : console.log("You can't vote");
+
+const vote = age >= 18 ? "You can vote" : "You can't vote";
+console.log(vote);
+
+let vote2;
+if (age >= 18) {
+  vote2 = "You can vote";
+} else vote2 = "You can't vote";
+console.log(vote2);
+
+console.log(`You like to vote ${age >= 18 ? "Yes" : "No"}`);
