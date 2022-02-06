@@ -348,7 +348,7 @@ if (23 > 10) {
 const me = "Vinoth";
 console.log(`I'm ${2022 - 1990} years old ${me}`);
 
-*/
+
 
 const age = "31";
 age >= 18 ? console.log("You can vote") : console.log("You can't vote");
@@ -363,3 +363,11 @@ if (age >= 18) {
 console.log(vote2);
 
 console.log(`You like to vote ${age >= 18 ? "Yes" : "No"}`);
+
+*/
+
+const bill = 275;
+const tip = bill <= 300 && bill >= 200 ? bill * 0.15 : bill * 0.2;
+console.log(
+  `the bill is ${bill} and the tip is ${tip} and total is ${bill + tip}`
+);
