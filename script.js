@@ -297,7 +297,7 @@ if (scoreDolphins > socoreKoalas && scoreDolphins >= 100) {
 } else {
   console.log("No winner");
 }
-*/
+
 
 const day = "Wednesday";
 
@@ -337,3 +337,13 @@ if (day === "Monday") {
 } else {
   console.log("It's not a day");
 }
+*/
+
+// statements
+if (23 > 10) {
+  const str = "23 is greater than 10";
+}
+
+// expressions
+const me = "Vinoth";
+console.log(`I'm ${2022 - 1990} years old ${me}`);
