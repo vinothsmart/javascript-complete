@@ -309,21 +309,31 @@ switch (day) {
     console.log("It's Tuesday");
     break;
   case "Wednesday":
-    console.log("It's Wednesday");
-    break;
   case "Thursday":
-    console.log("It's Thursday");
+    console.log("It's Wednesday OR It's Thursday");
     break;
   case "Friday":
     console.log("It's Thursday");
     break;
   case "Saturday":
-    console.log("It's Saturday");
-    break;
   case "Sunday":
-    console.log("It's Sunday");
+    console.log("It's Jolly day weekend");
     break;
   default:
     console.log("It's not a day");
     break;
+}
+
+if (day === "Monday") {
+  console.log("It's Monday");
+} else if (day === "Tuesday") {
+  console.log("It's Tuesday");
+} else if (day === "Wednesday" || day === "Thursday") {
+  console.log("It's Wednesday OR Thursday");
+} else if (day === "Friday") {
+  console.log("It's Friday");
+} else if (day === "Saturday" || day === "Sunday") {
+  console.log("It's Jolly day weekend");
+} else {
+  console.log("It's not a day");
 }
