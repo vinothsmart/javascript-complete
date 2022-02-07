@@ -12,7 +12,7 @@ if (hasDriversLincese) {
 // not use in stict mode
 // const interface = 'wifi';
 // const private = 143;
-*/
+
 
 function logger() {
   console.log("My Name is Jones");
@@ -35,3 +35,20 @@ const appleOrangeJucie = fruitProcessor(2, 4);
 console.log(appleJappleOrangeJucieuice);
 
 const num = Number("23");
+*/
+
+// function declaration
+function calcAge1(brithYear) {
+  return new Date().getFullYear() - brithYear;
+}
+
+const age1 = calcAge1(1990);
+console.log(age1);
+
+// function expression
+const calcAge2 = function (brithYear) {
+  return new Date().getFullYear() - brithYear;
+};
+
+const age2 = calcAge2(1990);
+console.log(age1, age2);
