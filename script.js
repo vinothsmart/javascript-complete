@@ -35,7 +35,7 @@ const appleOrangeJucie = fruitProcessor(2, 4);
 console.log(appleJappleOrangeJucieuice);
 
 const num = Number("23");
-*/
+
 
 // function declaration
 function calcAge1(brithYear) {
@@ -52,3 +52,19 @@ const calcAge2 = function (brithYear) {
 
 const age2 = calcAge2(1990);
 console.log(age1, age2);
+*/
+
+// Arrow function
+const calcAge3 = (brithYear) => new Date().getFullYear() - brithYear;
+
+const age3 = calcAge3(1990);
+console.log(age3);
+
+const yearsUntilRetirement = (brithYear, firstName) => {
+  const age = new Date().getFullYear() - brithYear;
+  const retirement = 65 - age;
+  return `${firstName} retires in ${retirement} years`;
+};
+
+console.log(yearsUntilRetirement(1990, "Vinoth"));
+console.log(yearsUntilRetirement(2021, "Johnson"));
