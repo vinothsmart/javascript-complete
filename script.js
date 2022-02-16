@@ -100,7 +100,7 @@ const yearsUntilRetirement = function (brithYear, firstName) {
 
 console.log(yearsUntilRetirement(1990, "Vinoth"));
 console.log(yearsUntilRetirement(1950, "Johnson"));
-*/
+
 
 const calcAverage = (a, b, c) => (a + b + c) / 3;
 console.log(calcAverage(3, 4, 5));
@@ -127,3 +127,22 @@ console.log(checkwinner(576, 111));
 scoreVinoth = calcAverage(85, 5, 41);
 scoreJohnson = calcAverage(23, 34, 27);
 console.log(checkwinner(scoreVinoth, scoreJohnson));
+*/
+
+// introduction to arrays
+const friend1 = "Sandhiya";
+const friend2 = "Ruban";
+const friend3 = "Mari";
+
+const friends = ["Sandhiya", "Ruban", "Mari"];
+console.log(friends);
+
+const years = new Array(1991, 1984, 2008, 2020);
+
+console.log(friends[0], friends[2]);
+
+console.log(friends.length);
+console.log(friends[friends.length - 1]);
+
+friends[2] = "Kanna";
+console.log(friends);
