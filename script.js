@@ -80,7 +80,7 @@ const fruitProcessor = (apples, oranges) => {
 };
 
 console.log(fruitProcessor(2, 3));
-*/
+
 
 const calAge = function (year) {
   return 2022 - year;
@@ -100,3 +100,25 @@ const yearsUntilRetirement = function (brithYear, firstName) {
 
 console.log(yearsUntilRetirement(1990, "Vinoth"));
 console.log(yearsUntilRetirement(1950, "Johnson"));
+*/
+
+const calcAverage = (a, b, c) => (a + b + c) / 3;
+console.log(calcAverage(3, 4, 5));
+
+// Test 1
+const scoreVinoth = calcAverage(44, 23, 71);
+const scoreJohnson = calcAverage(65, 54, 49);
+console.log(scoreVinoth, scoreJohnson);
+
+const checkwinner = (averageVinoth, averageJohnson) => {
+  if (averageVinoth >= 2 * averageJohnson) {
+    return `Vinoth Wins  ${averageVinoth} vs ${averageJohnson}`;
+  } else if (averageJohnson >= 2 * averageVinoth) {
+    return `Johnson Wins ${averageVinoth} vs ${averageJohnson}`;
+  } else {
+    return "Draw";
+  }
+};
+
+console.log(checkwinner(scoreVinoth, scoreJohnson));
+console.log(checkwinner(576, 111));
