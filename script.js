@@ -106,8 +106,8 @@ const calcAverage = (a, b, c) => (a + b + c) / 3;
 console.log(calcAverage(3, 4, 5));
 
 // Test 1
-const scoreVinoth = calcAverage(44, 23, 71);
-const scoreJohnson = calcAverage(65, 54, 49);
+let scoreVinoth = calcAverage(44, 23, 71);
+let scoreJohnson = calcAverage(65, 54, 49);
 console.log(scoreVinoth, scoreJohnson);
 
 const checkwinner = (averageVinoth, averageJohnson) => {
@@ -122,3 +122,8 @@ const checkwinner = (averageVinoth, averageJohnson) => {
 
 console.log(checkwinner(scoreVinoth, scoreJohnson));
 console.log(checkwinner(576, 111));
+
+// Test 2
+scoreVinoth = calcAverage(85, 5, 41);
+scoreJohnson = calcAverage(23, 34, 27);
+console.log(checkwinner(scoreVinoth, scoreJohnson));
