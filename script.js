@@ -146,3 +146,6 @@ console.log(friends[friends.length - 1]);
 
 friends[2] = "Kanna";
 console.log(friends);
+// friends = ["Sandhiya", "Ruban", "Kanna"]; this is not allowed
+
+const family = ["Vinoth", "Alamelu", "Samar"];
