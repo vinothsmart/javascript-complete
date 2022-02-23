@@ -158,3 +158,15 @@ const vinoth = [
 ];
 console.log(vinoth);
 console.log(vinoth.length);
+
+const calAge = (year) => 2022 - year;
+
+const ageYears = [1990, 1967, 2002, 2010, 2018];
+
+const age1 = calAge(ageYears[0]);
+const age2 = calAge(ageYears[1]);
+const age3 = calAge(ageYears[2]);
+console.log(age1, age2, age3);
+
+const ages = [calAge(ageYears[0]), calAge(ageYears[1]), calAge(ageYears[2])];
+console.log(ages);
