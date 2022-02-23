@@ -127,7 +127,7 @@ console.log(checkwinner(576, 111));
 scoreVinoth = calcAverage(85, 5, 41);
 scoreJohnson = calcAverage(23, 34, 27);
 console.log(checkwinner(scoreVinoth, scoreJohnson));
-*/
+
 
 // introduction to arrays
 const friend1 = "Sandhiya";
@@ -170,3 +170,36 @@ console.log(age1, age2, age3);
 
 const ages = [calAge(ageYears[0]), calAge(ageYears[1]), calAge(ageYears[2])];
 console.log(ages);
+*/
+
+const friends = ["Sandhiya", "Ruban", "Mari"];
+
+// Add elements
+const newLength = friends.push("Johnson");
+console.log(friends);
+console.log(newLength);
+
+friends.unshift("Santhosh");
+console.log(friends);
+
+// remove elements
+friends.pop(); // Last
+const popped = friends.pop();
+console.log(popped);
+console.log(friends);
+
+friends.shift(); // First
+console.log(friends);
+
+console.log(friends.indexOf("Ruban"));
+console.log(friends.indexOf("Kanna"));
+
+friends.push(23);
+console.log(friends.includes("Ruban"));
+console.log(friends.includes("Kanna"));
+console.log(friends.includes("23"));
+console.log(friends.includes(23));
+
+if (friends.includes("Ruban")) {
+  console.log("Ruban is a friend");
+}
