@@ -203,7 +203,7 @@ console.log(friends.includes(23));
 if (friends.includes("Ruban")) {
   console.log("Ruban is a friend");
 }
-*/
+
 
 const calcTip = (bill) =>
   bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
@@ -215,3 +215,20 @@ const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
 const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 console.log(bills, tips);
 console.log(totals);
+*/
+
+const vinothArray = [
+  "Vinoth",
+  "Kanna",
+  2022 - 1990,
+  "Senior Software Developer",
+  ["Sandhiya", "Ruban", "Mari"],
+];
+
+const vinoth = {
+  firstName: "Vinoth",
+  lastName: "Kanna",
+  age: 2022 - 1990,
+  job: "Senior Software Developer",
+  friends: ["Sandhiya", "Ruban", "Mari"],
+};
