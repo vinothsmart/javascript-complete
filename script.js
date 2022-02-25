@@ -215,7 +215,7 @@ const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
 const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 console.log(bills, tips);
 console.log(totals);
-*/
+
 
 const vinothArray = [
   "Vinoth",
@@ -224,6 +224,7 @@ const vinothArray = [
   "Senior Software Developer",
   ["Sandhiya", "Ruban", "Mari"],
 ];
+*/
 
 const vinoth = {
   firstName: "Vinoth",
@@ -232,3 +233,17 @@ const vinoth = {
   job: "Senior Software Developer",
   friends: ["Sandhiya", "Ruban", "Mari"],
 };
+
+console.log(vinoth);
+console.log(vinoth.lastName);
+console.log(vinoth["lastName"]);
+
+const namekey = "Name";
+console.log(vinoth["first" + namekey]);
+console.log(vinoth["last" + namekey]);
+
+// console.log(vinoth."first" + namekey); this will not work
+console.log(vinoth[namekey]);
+
+const interestedIn = prompt("what do you want to do know about vinoth?");
+console.log(interestedIn);
