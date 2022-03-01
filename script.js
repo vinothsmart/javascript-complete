@@ -224,7 +224,7 @@ const vinothArray = [
   "Senior Software Developer",
   ["Sandhiya", "Ruban", "Mari"],
 ];
-*/
+
 
 const vinoth = {
   firstName: "Vinoth",
@@ -263,3 +263,19 @@ console.log(vinoth);
 console.log(
   `${vinoth.firstName} has ${vinoth.friends.length}, and his best friend is ${vinoth.friends[0]}`
 );
+*/
+
+const vinoth = {
+  firstName: "Vinoth",
+  lastName: "Kanna",
+  birthYear: 1990,
+  job: "Senior Software Developer",
+  friends: ["Sandhiya", "Ruban", "Mari"],
+  hasDriversLicense: true,
+  calcAge: function (birthYear) {
+    return 2021 - birthYear;
+  },
+};
+
+console.log(vinoth.calcAge(vinoth.birthYear));
+console.log(vinoth["calcAge"](vinoth.birthYear));
