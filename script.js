@@ -289,7 +289,7 @@ console.log(vinoth.age);
 
 // vinoth is a 32 years old Senior Software Developer he has drivers license
 console.log(vinoth.getSummary());
-*/
+
 
 const mark = {
   fullName: "Mark Miller",
@@ -320,4 +320,9 @@ if (mark.bmi > john.bmi) {
   console.log(`${john.fullName} has a higher BMI`);
 } else {
   console.log(`Both have same BMI`);
+}
+*/
+
+for (let rep = 1; rep <= 10; rep++) {
+  console.log("Lifting weights repetition " + rep);
 }
