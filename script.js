@@ -272,10 +272,21 @@ const vinoth = {
   job: "Senior Software Developer",
   friends: ["Sandhiya", "Ruban", "Mari"],
   hasDriversLicense: true,
-  calcAge: function (birthYear) {
-    return 2021 - birthYear;
+  calcAge: function () {
+    this.age = 2021 - this.birthYear;
+    return this.age;
+  },
+  getSummary: function () {
+    return `${this.firstName} is a ${this.calcAge()} year old ${
+      this.job
+    } and he has ${this.hasDriversLicense ? "a" : "no"} drivers license`;
   },
 };
 
-console.log(vinoth.calcAge(vinoth.birthYear));
-console.log(vinoth["calcAge"](vinoth.birthYear));
+// console.log(vinoth.calcAge(vinoth.birthYear));
+// console.log(vinoth["calcAge"](vinoth.birthYear));
+console.log(vinoth.calcAge());
+console.log(vinoth.age);
+
+// vinoth is a 32 years old Senior Software Developer he has drivers license
+console.log(vinoth.getSummary());
