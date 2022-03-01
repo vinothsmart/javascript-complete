@@ -246,4 +246,20 @@ console.log(vinoth["last" + namekey]);
 console.log(vinoth[namekey]);
 
 const interestedIn = prompt("what do you want to do know about vinoth?");
-console.log(interestedIn);
+if (vinoth[interestedIn]) {
+  console.log(vinoth[interestedIn]);
+} else {
+  console.log(
+    "Wrong request! Choose between firstName,lastName, age, job, friends"
+  );
+}
+
+vinoth.location = "Chennai";
+vinoth["twitter"] = "@vinothkanna90";
+console.log(vinoth);
+
+// Challenge
+// vinoth best friend Sandhiya
+console.log(
+  `${vinoth.firstName} has ${vinoth.friends.length}, and his best friend is ${vinoth.friends[0]}`
+);
