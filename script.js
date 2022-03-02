@@ -1,5 +1,7 @@
 // Remember , we're gonna use srtice in all scripts now
-"use strict";
+'use strict';
 
-const x = "23";
+const x = '23';
 if (x === 23) console.log(23);
+
+const calcAge = birthYear => 2022 - birthYear;
