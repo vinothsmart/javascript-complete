@@ -321,8 +321,53 @@ if (mark.bmi > john.bmi) {
 } else {
   console.log(`Both have same BMI`);
 }
-*/
+
 
 for (let rep = 1; rep <= 10; rep++) {
   console.log("Lifting weights repetition " + rep);
+}
+
+*/
+
+const vinothArray = [
+  "Vinoth",
+  "Kanna",
+  2022 - 1990,
+  "Senior Software Developer",
+  ["Sandhiya", "Ruban", "Mari", "Simbu oru Vambu"],
+  true,
+];
+
+const types = [];
+
+for (let i = 0; i < vinothArray.length; i++) {
+  // console.log(vinothArray[i], typeof vinothArray[i]);
+
+  // Filling types array
+  // types[i] = typeof vinothArray[i];
+  types.push(typeof vinothArray[i]);
+}
+
+console.log(types);
+
+const years = [1990, 1965, 1937, 2005, 1998];
+const ages = [];
+
+for (let i = 0; i < years.length; i++) {
+  ages.push(2022 - years[i]);
+}
+
+console.log(ages);
+
+//continue and break
+console.log("--- Only String ---");
+for (let i = 0; i < vinothArray.length; i++) {
+  if (typeof vinothArray[i] !== "string") continue;
+  console.log(vinothArray[i], typeof vinothArray[i]);
+}
+
+console.log("--- Break  with number ---");
+for (let i = 0; i < vinothArray.length; i++) {
+  if (typeof vinothArray[i] === "number") break;
+  console.log(vinothArray[i], typeof vinothArray[i]);
 }
