@@ -327,7 +327,7 @@ for (let rep = 1; rep <= 10; rep++) {
   console.log("Lifting weights repetition " + rep);
 }
 
-*/
+
 
 const vinothArray = [
   "Vinoth",
@@ -370,4 +370,18 @@ console.log("--- Break  with number ---");
 for (let i = 0; i < vinothArray.length; i++) {
   if (typeof vinothArray[i] === "number") break;
   console.log(vinothArray[i], typeof vinothArray[i]);
+}
+*/
+
+const vinothArray = [
+  "Vinoth",
+  "Kanna",
+  2022 - 1990,
+  "Senior Software Developer",
+  ["Sandhiya", "Ruban", "Mari", "Simbu oru Vambu"],
+  true,
+];
+
+for (let i = vinothArray.length - 1; i >= 0; i--) {
+  console.log(vinothArray[i]);
 }
