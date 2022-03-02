@@ -385,3 +385,10 @@ const vinothArray = [
 for (let i = vinothArray.length - 1; i >= 0; i--) {
   console.log(vinothArray[i]);
 }
+
+for (let execise = 1; execise <= 5; execise++) {
+  console.log(`Staring Execise ${execise}`);
+  for (let rep = 1; rep < 6; rep++) {
+    console.log(`Lifting weight repetition ${rep}`);
+  }
+}
