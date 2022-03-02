@@ -371,7 +371,7 @@ for (let i = 0; i < vinothArray.length; i++) {
   if (typeof vinothArray[i] === "number") break;
   console.log(vinothArray[i], typeof vinothArray[i]);
 }
-*/
+
 
 const vinothArray = [
   "Vinoth",
@@ -390,5 +390,23 @@ for (let execise = 1; execise <= 5; execise++) {
   console.log(`Staring Execise ${execise}`);
   for (let rep = 1; rep < 6; rep++) {
     console.log(`Lifting weight repetition ${rep}`);
+  }
+}
+*/
+
+let rep = 1;
+while (rep <= 10) {
+  console.log(`Lifting weight repetition ${rep}`);
+  rep++;
+}
+
+let dice = Math.trunc(Math.random() * 6) + 1;
+console.log(dice);
+
+while (dice !== 6) {
+  console.log(`You rolled a ${dice}`);
+  dice = Math.trunc(Math.random() * 6) + 1;
+  if (dice === 6) {
+    console.log("You win!");
   }
 }
