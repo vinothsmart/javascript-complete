@@ -1,7 +1,7 @@
 // Remember , we're gonna use srtice in all scripts now
 'use strict';
 
-const temperatures = [3, -2, -6, -1, 'error', 9, 13, 17, 15, 14, 9, 5];
+/*const temperatures = [3, -2, -6, -1, 'error', 9, 13, 17, 15, 14, 9, 5];
 
 const calcTempAmplitude = temps => {
   let max = temps[0];
@@ -41,3 +41,21 @@ console.log(mergeArray);
 const checking = calcTempAmplitudeNew([3, 5, 1], [9, 0, 5]);
 
 console.log(checking);
+*/
+
+const measureKelvin = () => {
+  const measurement = {
+    type: 'temp',
+    unit: 'celsius',
+    value: Number(prompt('Enter temperature in celsius')),
+  };
+
+  // console.log(measurement);
+  // console.table(measurement);
+  // console.log(measurement.value);
+
+  const kelvin = measurement.value + 273;
+  return kelvin;
+};
+
+console.log(measureKelvin());
