@@ -133,6 +133,10 @@ console.log(`Just a regualr string`);
 
 console.log("String with \n mutiple \n lines");
 
+console.log(`String
+multiple
+lines`);
+
 
 const age = 19;
 
