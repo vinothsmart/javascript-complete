@@ -1,4 +1,5 @@
 /*
+//11 Values and Variables
 let js = "amazing";
 console.log(40 + 8 + 23 - 10);
 
@@ -17,6 +18,7 @@ let mycurrentJob = "web developer";
 
 console.log(myFirstJob);
 
+//12 Data types
 
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
@@ -40,6 +42,8 @@ console.log(typeof year);
 console.log(typeof null);
 
 
+// 13 let const var
+
 // reassign or mutate the value
 let age = 30;
 age = 31;
@@ -57,7 +61,7 @@ job = "frontend developer";
 lastName = "Srinivasan";
 console.log(lastName);
 
-
+// 14 Basic Operators
 // Math operators
 const now = 2037;
 const ageVinoth = now - 1990;
@@ -90,6 +94,7 @@ console.log(isFullAge);
 console.log(now - 1991 > now - 2018);
 
 
+// 15 Operator precedence
 const now = 2037;
 const ageVinoth = now - 1990;
 const ageJohnSon = now - 2018;
@@ -104,6 +109,7 @@ const averageAge = (ageVinoth + ageJohnSon) / 2;
 console.log(ageVinoth, ageJohnSon, averageAge);
 
 
+// 16 Code Challege
 const massMark = 78;
 const heightMark = 1.69;
 const massJohn = 92;
@@ -115,10 +121,12 @@ const markHigherBMI = BMIMark > BMIJohn;
 
 console.log(BMIMark, BMIJohn, markHigherBMI);
 
+// 17 String and template literals
 const firstName = "Vinoth";
 const job = "react developer";
 const birthYear = 1990;
 const year = 2022;
+
 
 const vinoth =
   "I',m " + firstName + ", a" + (year - birthYear) + " years old" + job + "!";
@@ -133,7 +141,7 @@ console.log(`Just a regualr string`);
 
 console.log("String with \n mutiple \n lines");
 
-
+// 18 if else statements
 const age = 19;
 
 if (age >= 18) {
@@ -155,7 +163,7 @@ if (birthYear <= 2000) {
 
 console.log(century);
 
-
+// 19 code challenge 
 const massMark = 78;
 const heightMark = 1.69;
 const massJohn = 92;
@@ -176,7 +184,7 @@ if (BMIMark > BMIJohn) {
   console.log(`John's BMI (${BMIMark}) is higher than Mark's (${BMIJohn})`);
 }
 
-
+// 20 Type conversion and type coercion
 // type conversion
 const inputYear = "1990";
 console.log(Number(inputYear), inputYear);
@@ -197,7 +205,7 @@ let n = "1" + 1;
 n = n - 1;
 console.log(n);
 
-
+// 21 Truthy and falsy values
 // 5 falsy values: 0 , '', null, undefined, NaN
 
 console.log(Boolean(0));
@@ -221,7 +229,7 @@ if (height) {
   console.log("height is not defined");
 }
 
-
+// 22 Equality operators
 const age = 18;
 if (age === 18) console.log("You are old enough to vote (strict)");
 if (age == 18) console.log("You are old enough to vote (loose)");
@@ -243,6 +251,8 @@ if (favourite !== 23) {
   console.log("You are not right 23");
 }
 
+
+// 24 Logical operators
 const hasDriversLinese = true; // A
 const hasGoodVision = true; //B
 
@@ -266,7 +276,7 @@ if (hasDriversLinese && hasGoodVision && !isTried) {
 }
 
 
-
+// 25 code challenge
 // const scoreDolphins = (96 + 108 + 89) / 3;
 // const socoreKoalas = (88 + 100 + 110) / 3;
 // console.log(scoreDolphins, socoreKoalas);
@@ -298,7 +308,7 @@ if (scoreDolphins > socoreKoalas && scoreDolphins >= 100) {
   console.log("No winner");
 }
 
-
+// 26 switch statements
 const day = "Wednesday";
 
 switch (day) {
@@ -338,6 +348,7 @@ if (day === "Monday") {
   console.log("It's not a day");
 }
 
+// 25 statement and expression
 
 // statements
 if (23 > 10) {
@@ -349,7 +360,7 @@ const me = "Vinoth";
 console.log(`I'm ${2022 - 1990} years old ${me}`);
 
 
-
+// 26 ternary operator
 const age = "31";
 age >= 18 ? console.log("You can vote") : console.log("You can't vote");
 
@@ -365,7 +376,7 @@ console.log(vote2);
 console.log(`You like to vote ${age >= 18 ? "Yes" : "No"}`);
 
 */
-
+// 27 code challenge
 const bill = 275;
 const tip = bill <= 300 && bill >= 200 ? bill * 0.15 : bill * 0.2;
 console.log(
