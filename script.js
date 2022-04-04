@@ -141,7 +141,15 @@ console.log(`Just a regualr string`);
 
 console.log("String with \n mutiple \n lines");
 
+<<<<<<< HEAD
 // 18 if else statements
+=======
+console.log(`String
+multiple
+lines`);
+
+
+>>>>>>> b3f66635308e44f8f27e4d134f36d5ebf8f4608e
 const age = 19;
 
 if (age >= 18) {
