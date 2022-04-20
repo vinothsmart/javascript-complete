@@ -348,7 +348,7 @@ if (day === "Monday") {
   console.log("It's not a day");
 }
 
-// 25 statement and expression
+// 27 statement and expression
 
 // statements
 if (23 > 10) {
@@ -360,7 +360,7 @@ const me = "Vinoth";
 console.log(`I'm ${2022 - 1990} years old ${me}`);
 
 
-// 26 ternary operator
+// 28 ternary operator
 const age = "31";
 age >= 18 ? console.log("You can vote") : console.log("You can't vote");
 
@@ -376,7 +376,7 @@ console.log(vote2);
 console.log(`You like to vote ${age >= 18 ? "Yes" : "No"}`);
 
 */
-// 27 code challenge
+// 29 code challenge
 const bill = 275;
 const tip = bill <= 300 && bill >= 200 ? bill * 0.15 : bill * 0.2;
 console.log(
