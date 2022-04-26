@@ -1,4 +1,5 @@
 /*
+// 32 Activating Strict Mode
 "use strict";
 
 let hasDriversLincese = false;
@@ -13,7 +14,7 @@ if (hasDriversLincese) {
 // const interface = 'wifi';
 // const private = 143;
 
-
+// 33 Functions
 function logger() {
   console.log("My Name is Jones");
 }
@@ -36,7 +37,7 @@ console.log(appleJappleOrangeJucieuice);
 
 const num = Number("23");
 
-
+// 34 Function Declarations vs Expressions
 // function declaration
 function calcAge1(brithYear) {
   return new Date().getFullYear() - brithYear;
@@ -54,7 +55,7 @@ const age2 = calcAge2(1990);
 console.log(age1, age2);
 
 
-// Arrow function
+// 35 Arrow function
 const calcAge3 = (brithYear) => new Date().getFullYear() - brithYear;
 
 const age3 = calcAge3(1990);
@@ -69,6 +70,7 @@ const yearsUntilRetirement = (brithYear, firstName) => {
 console.log(yearsUntilRetirement(1990, "Vinoth"));
 console.log(yearsUntilRetirement(2021, "Johnson"));
 
+// 36 Fuctions Calling Other Functions
 
 const cutPieces = (fruit) => fruit * 4;
 
@@ -86,6 +88,7 @@ const calAge = function (year) {
   return 2022 - year;
 };
 
+// 37 Reviewing Functions
 const yearsUntilRetirement = function (brithYear, firstName) {
   const age = new Date().getFullYear() - brithYear;
   const retirement = 65 - age;
@@ -105,6 +108,7 @@ console.log(yearsUntilRetirement(1950, "Johnson"));
 const calcAverage = (a, b, c) => (a + b + c) / 3;
 console.log(calcAverage(3, 4, 5));
 
+// 38 Coding Challenge #1
 // Test 1
 let scoreVinoth = calcAverage(44, 23, 71);
 let scoreJohnson = calcAverage(65, 54, 49);
@@ -129,7 +133,7 @@ scoreJohnson = calcAverage(23, 34, 27);
 console.log(checkwinner(scoreVinoth, scoreJohnson));
 
 
-// introduction to arrays
+// 39 introduction to arrays
 const friend1 = "Sandhiya";
 const friend2 = "Ruban";
 const friend3 = "Mari";
@@ -171,7 +175,7 @@ console.log(age1, age2, age3);
 const ages = [calAge(ageYears[0]), calAge(ageYears[1]), calAge(ageYears[2])];
 console.log(ages);
 
-
+// 40 Basic Array Operations (Methods)
 const friends = ["Sandhiya", "Ruban", "Mari"];
 
 // Add elements
